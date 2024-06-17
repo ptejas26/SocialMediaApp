@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F14B5A6-E655-4ACE-B0A4-D779842B38CC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "038D273D-1D14-4A1D-AEC5-7AAF8E27CE0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "callUserListAPI(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFF32C1E-614F-4819-9AC6-66EAF3CABD70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "callUserListAPI(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFF32C1E-614F-4819-9AC6-66EAF3CABD70 - 100ba1e6609d9cdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMedia_VIPER.UserListInteractor.callUserListAPI(for: Swift.Int) -&gt; ()"
+                  moduleName = "SocialMedia-VIPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejp2/Downloads/Learning/Swift/SocialMedia-VIPER/SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "CFF32C1E-614F-4819-9AC6-66EAF3CABD70 - 55529e27f60a3745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SocialMedia_VIPER.UserModel&gt;, Swift.Error&gt;) -&gt; () in SocialMedia_VIPER.UserListInteractor.callUserListAPI(for: Swift.Int) -&gt; ()"
+                  moduleName = "SocialMedia-VIPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejp2/Downloads/Learning/Swift/SocialMedia-VIPER/SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "CFF32C1E-614F-4819-9AC6-66EAF3CABD70 - 5a4a68601a346e6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMedia_VIPER.UserListInteractor.callUserListAPI(for: Swift.Int) -&gt; ()"
+                  moduleName = "SocialMedia-VIPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejp2/Downloads/Learning/Swift/Social_Media_App/SocialMedia-VIPER/SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "CFF32C1E-614F-4819-9AC6-66EAF3CABD70 - 1f1357a18ca3c5f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SocialMedia_VIPER.UserModel&gt;, Swift.Error&gt;) -&gt; () in SocialMedia_VIPER.UserListInteractor.callUserListAPI(for: Swift.Int) -&gt; ()"
+                  moduleName = "SocialMedia-VIPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejp2/Downloads/Learning/Swift/Social_Media_App/SocialMedia-VIPER/SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE248A04-CD89-4061-8B48-E97FC7871392"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPER/UserList/Interactor/UserListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "callUserListAPI(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B1CBF17-3001-49E1-8712-4DEFBA61E968"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPER/UserList/Presenter/UserListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "returnUserList(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6B8989A-3870-498A-9E6F-3C738ECB88A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPER/UserList/View/UserListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "userList(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D1335E3-189F-4FA0-A056-18B2B18E03AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMedia-VIPERTests/UserListViewTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testViewWithMockPresenter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

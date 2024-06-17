@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10B9EB12C1A823B007454A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EB02C1A823B007454A5 /* AppDelegate.swift */; };
+		F10B9EB32C1A823B007454A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EB22C1A823B007454A5 /* SceneDelegate.swift */; };
+		F10B9EB82C1A823B007454A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10B9EB62C1A823B007454A5 /* Main.storyboard */; };
+		F10B9EBA2C1A823D007454A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10B9EB92C1A823D007454A5 /* Assets.xcassets */; };
+		F10B9EBD2C1A823D007454A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10B9EBB2C1A823D007454A5 /* LaunchScreen.storyboard */; };
+		F10B9EC82C1A823D007454A5 /* SocialMedia_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EC72C1A823D007454A5 /* SocialMedia_VIPERTests.swift */; };
+		F10B9ED22C1A823D007454A5 /* SocialMedia_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9ED12C1A823D007454A5 /* SocialMedia_VIPERUITests.swift */; };
+		F10B9ED42C1A823D007454A5 /* SocialMedia_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9ED32C1A823D007454A5 /* SocialMedia_VIPERUITestsLaunchTests.swift */; };
+		F10B9EE12C1A82A2007454A5 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EE02C1A82A2007454A5 /* UserListViewController.swift */; };
+		F10B9EE72C1A82C1007454A5 /* Addres.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EE32C1A82C1007454A5 /* Addres.swift */; };
+		F10B9EE82C1A82C1007454A5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EE42C1A82C1007454A5 /* UserModel.swift */; };
+		F10B9EE92C1A82C1007454A5 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EE52C1A82C1007454A5 /* Company.swift */; };
+		F10B9EEA2C1A82C1007454A5 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EE62C1A82C1007454A5 /* Geo.swift */; };
+		F10B9EEE2C1A8349007454A5 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EED2C1A8349007454A5 /* UserListInteractor.swift */; };
+		F10B9EF12C1A835E007454A5 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EF02C1A835E007454A5 /* UserListPresenter.swift */; };
+		F10B9EF52C1A839B007454A5 /* UserListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EF42C1A839B007454A5 /* UserListProtocol.swift */; };
+		F10B9EF72C1A85D2007454A5 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EF62C1A85D2007454A5 /* UserListRouter.swift */; };
+		F10B9EF92C1A8F7A007454A5 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EF82C1A8F7A007454A5 /* ServiceManager.swift */; };
+		F10B9EFB2C1E7B36007454A5 /* UserListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B9EFA2C1E7B36007454A5 /* UserListViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10B9EC42C1A823D007454A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10B9EA52C1A823B007454A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10B9EAC2C1A823B007454A5;
+			remoteInfo = "SocialMedia-VIPER";
+		};
+		F10B9ECE2C1A823D007454A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10B9EA52C1A823B007454A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10B9EAC2C1A823B007454A5;
+			remoteInfo = "SocialMedia-VIPER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10B9EAD2C1A823B007454A5 /* SocialMedia-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialMedia-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10B9EB02C1A823B007454A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10B9EB22C1A823B007454A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F10B9EB72C1A823B007454A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10B9EB92C1A823D007454A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10B9EBC2C1A823D007454A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10B9EBE2C1A823D007454A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10B9EC32C1A823D007454A5 /* SocialMedia-VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialMedia-VIPERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10B9EC72C1A823D007454A5 /* SocialMedia_VIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia_VIPERTests.swift; sourceTree = "<group>"; };
+		F10B9ECD2C1A823D007454A5 /* SocialMedia-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialMedia-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10B9ED12C1A823D007454A5 /* SocialMedia_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia_VIPERUITests.swift; sourceTree = "<group>"; };
+		F10B9ED32C1A823D007454A5 /* SocialMedia_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F10B9EE02C1A82A2007454A5 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		F10B9EE32C1A82C1007454A5 /* Addres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addres.swift; sourceTree = "<group>"; };
+		F10B9EE42C1A82C1007454A5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F10B9EE52C1A82C1007454A5 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F10B9EE62C1A82C1007454A5 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		F10B9EED2C1A8349007454A5 /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		F10B9EF02C1A835E007454A5 /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		F10B9EF42C1A839B007454A5 /* UserListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProtocol.swift; sourceTree = "<group>"; };
+		F10B9EF62C1A85D2007454A5 /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		F10B9EF82C1A8F7A007454A5 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		F10B9EFA2C1E7B36007454A5 /* UserListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10B9EAA2C1A823B007454A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9EC02C1A823D007454A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9ECA2C1A823D007454A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10B9EA42C1A823B007454A5 = {
+			isa = PBXGroup;
+			children = (
+				F10B9EAF2C1A823B007454A5 /* SocialMedia-VIPER */,
+				F10B9EC62C1A823D007454A5 /* SocialMedia-VIPERTests */,
+				F10B9ED02C1A823D007454A5 /* SocialMedia-VIPERUITests */,
+				F10B9EAE2C1A823B007454A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10B9EAE2C1A823B007454A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EAD2C1A823B007454A5 /* SocialMedia-VIPER.app */,
+				F10B9EC32C1A823D007454A5 /* SocialMedia-VIPERTests.xctest */,
+				F10B9ECD2C1A823D007454A5 /* SocialMedia-VIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10B9EAF2C1A823B007454A5 /* SocialMedia-VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EF82C1A8F7A007454A5 /* ServiceManager.swift */,
+				F10B9EF32C1A837E007454A5 /* UserList */,
+				F10B9EB02C1A823B007454A5 /* AppDelegate.swift */,
+				F10B9EB22C1A823B007454A5 /* SceneDelegate.swift */,
+				F10B9EB62C1A823B007454A5 /* Main.storyboard */,
+				F10B9EB92C1A823D007454A5 /* Assets.xcassets */,
+				F10B9EBB2C1A823D007454A5 /* LaunchScreen.storyboard */,
+				F10B9EBE2C1A823D007454A5 /* Info.plist */,
+			);
+			path = "SocialMedia-VIPER";
+			sourceTree = "<group>";
+		};
+		F10B9EC62C1A823D007454A5 /* SocialMedia-VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EC72C1A823D007454A5 /* SocialMedia_VIPERTests.swift */,
+				F10B9EFA2C1E7B36007454A5 /* UserListViewTests.swift */,
+			);
+			path = "SocialMedia-VIPERTests";
+			sourceTree = "<group>";
+		};
+		F10B9ED02C1A823D007454A5 /* SocialMedia-VIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9ED12C1A823D007454A5 /* SocialMedia_VIPERUITests.swift */,
+				F10B9ED32C1A823D007454A5 /* SocialMedia_VIPERUITestsLaunchTests.swift */,
+			);
+			path = "SocialMedia-VIPERUITests";
+			sourceTree = "<group>";
+		};
+		F10B9EE22C1A82C1007454A5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EE32C1A82C1007454A5 /* Addres.swift */,
+				F10B9EE42C1A82C1007454A5 /* UserModel.swift */,
+				F10B9EE52C1A82C1007454A5 /* Company.swift */,
+				F10B9EE62C1A82C1007454A5 /* Geo.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F10B9EEB2C1A82CB007454A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EE02C1A82A2007454A5 /* UserListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F10B9EEC2C1A8335007454A5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EED2C1A8349007454A5 /* UserListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F10B9EEF2C1A834F007454A5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EF02C1A835E007454A5 /* UserListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F10B9EF22C1A8370007454A5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EF62C1A85D2007454A5 /* UserListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F10B9EF32C1A837E007454A5 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				F10B9EF42C1A839B007454A5 /* UserListProtocol.swift */,
+				F10B9EEB2C1A82CB007454A5 /* View */,
+				F10B9EEC2C1A8335007454A5 /* Interactor */,
+				F10B9EEF2C1A834F007454A5 /* Presenter */,
+				F10B9EE22C1A82C1007454A5 /* Entity */,
+				F10B9EF22C1A8370007454A5 /* Router */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10B9EAC2C1A823B007454A5 /* SocialMedia-VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10B9ED72C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPER" */;
+			buildPhases = (
+				F10B9EA92C1A823B007454A5 /* Sources */,
+				F10B9EAA2C1A823B007454A5 /* Frameworks */,
+				F10B9EAB2C1A823B007454A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SocialMedia-VIPER";
+			productName = "SocialMedia-VIPER";
+			productReference = F10B9EAD2C1A823B007454A5 /* SocialMedia-VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10B9EC22C1A823D007454A5 /* SocialMedia-VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10B9EDA2C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPERTests" */;
+			buildPhases = (
+				F10B9EBF2C1A823D007454A5 /* Sources */,
+				F10B9EC02C1A823D007454A5 /* Frameworks */,
+				F10B9EC12C1A823D007454A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10B9EC52C1A823D007454A5 /* PBXTargetDependency */,
+			);
+			name = "SocialMedia-VIPERTests";
+			productName = "SocialMedia-VIPERTests";
+			productReference = F10B9EC32C1A823D007454A5 /* SocialMedia-VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F10B9ECC2C1A823D007454A5 /* SocialMedia-VIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10B9EDD2C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPERUITests" */;
+			buildPhases = (
+				F10B9EC92C1A823D007454A5 /* Sources */,
+				F10B9ECA2C1A823D007454A5 /* Frameworks */,
+				F10B9ECB2C1A823D007454A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10B9ECF2C1A823D007454A5 /* PBXTargetDependency */,
+			);
+			name = "SocialMedia-VIPERUITests";
+			productName = "SocialMedia-VIPERUITests";
+			productReference = F10B9ECD2C1A823D007454A5 /* SocialMedia-VIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10B9EA52C1A823B007454A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F10B9EAC2C1A823B007454A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F10B9EC22C1A823D007454A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F10B9EAC2C1A823B007454A5;
+					};
+					F10B9ECC2C1A823D007454A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F10B9EAC2C1A823B007454A5;
+					};
+				};
+			};
+			buildConfigurationList = F10B9EA82C1A823B007454A5 /* Build configuration list for PBXProject "SocialMedia-VIPER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10B9EA42C1A823B007454A5;
+			productRefGroup = F10B9EAE2C1A823B007454A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10B9EAC2C1A823B007454A5 /* SocialMedia-VIPER */,
+				F10B9EC22C1A823D007454A5 /* SocialMedia-VIPERTests */,
+				F10B9ECC2C1A823D007454A5 /* SocialMedia-VIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10B9EAB2C1A823B007454A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B9EBD2C1A823D007454A5 /* LaunchScreen.storyboard in Resources */,
+				F10B9EBA2C1A823D007454A5 /* Assets.xcassets in Resources */,
+				F10B9EB82C1A823B007454A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9EC12C1A823D007454A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9ECB2C1A823D007454A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10B9EA92C1A823B007454A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B9EF52C1A839B007454A5 /* UserListProtocol.swift in Sources */,
+				F10B9EE12C1A82A2007454A5 /* UserListViewController.swift in Sources */,
+				F10B9EF12C1A835E007454A5 /* UserListPresenter.swift in Sources */,
+				F10B9EEE2C1A8349007454A5 /* UserListInteractor.swift in Sources */,
+				F10B9EB12C1A823B007454A5 /* AppDelegate.swift in Sources */,
+				F10B9EE72C1A82C1007454A5 /* Addres.swift in Sources */,
+				F10B9EE82C1A82C1007454A5 /* UserModel.swift in Sources */,
+				F10B9EB32C1A823B007454A5 /* SceneDelegate.swift in Sources */,
+				F10B9EE92C1A82C1007454A5 /* Company.swift in Sources */,
+				F10B9EEA2C1A82C1007454A5 /* Geo.swift in Sources */,
+				F10B9EF72C1A85D2007454A5 /* UserListRouter.swift in Sources */,
+				F10B9EF92C1A8F7A007454A5 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9EBF2C1A823D007454A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B9EC82C1A823D007454A5 /* SocialMedia_VIPERTests.swift in Sources */,
+				F10B9EFB2C1E7B36007454A5 /* UserListViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B9EC92C1A823D007454A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B9ED22C1A823D007454A5 /* SocialMedia_VIPERUITests.swift in Sources */,
+				F10B9ED42C1A823D007454A5 /* SocialMedia_VIPERUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10B9EC52C1A823D007454A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10B9EAC2C1A823B007454A5 /* SocialMedia-VIPER */;
+			targetProxy = F10B9EC42C1A823D007454A5 /* PBXContainerItemProxy */;
+		};
+		F10B9ECF2C1A823D007454A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10B9EAC2C1A823B007454A5 /* SocialMedia-VIPER */;
+			targetProxy = F10B9ECE2C1A823D007454A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10B9EB62C1A823B007454A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10B9EB72C1A823B007454A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10B9EBB2C1A823D007454A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10B9EBC2C1A823D007454A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10B9ED52C1A823D007454A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10B9ED62C1A823D007454A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10B9ED82C1A823D007454A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialMedia-VIPER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10B9ED92C1A823D007454A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialMedia-VIPER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F10B9EDB2C1A823D007454A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMedia-VIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMedia-VIPER";
+			};
+			name = Debug;
+		};
+		F10B9EDC2C1A823D007454A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMedia-VIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMedia-VIPER";
+			};
+			name = Release;
+		};
+		F10B9EDE2C1A823D007454A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SocialMedia-VIPER";
+			};
+			name = Debug;
+		};
+		F10B9EDF2C1A823D007454A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.SocialMedia-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SocialMedia-VIPER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10B9EA82C1A823B007454A5 /* Build configuration list for PBXProject "SocialMedia-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10B9ED52C1A823D007454A5 /* Debug */,
+				F10B9ED62C1A823D007454A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10B9ED72C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10B9ED82C1A823D007454A5 /* Debug */,
+				F10B9ED92C1A823D007454A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10B9EDA2C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10B9EDB2C1A823D007454A5 /* Debug */,
+				F10B9EDC2C1A823D007454A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10B9EDD2C1A823D007454A5 /* Build configuration list for PBXNativeTarget "SocialMedia-VIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10B9EDE2C1A823D007454A5 /* Debug */,
+				F10B9EDF2C1A823D007454A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10B9EA52C1A823B007454A5 /* Project object */;
+}
